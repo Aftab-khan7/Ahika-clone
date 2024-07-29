@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+    /*Topbar*/
+
+.top-head{
+    background-color: #d46a3b;
+    height: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .88rem;
+    font-weight: 500;
+
+}
+
+     /*Top Head Logo*/
+
+.logo-head{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+
+}
+
+.logo{
+    width: 57%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+       
+}
+
+.logo img{
+    height: 32px;
+
+}
+   
+.search-all{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+   padding-left: 210px;
+   justify-content: center;  
+      
+}
+
+   .search-all input{
+    font-size: 20px;
+    border: 1px solid rgb(229, 225, 225);
+    height: 30px;
+    width: 215px;
+        
+}
+
+.search-all ::placeholder{
+    padding-left: 20px;
+    font-size: 0.92rem;
+
+}
+
+.search-all a {
+    margin-left: 10px;
+    color: black;
+
+}
+
+
+/*Top Navbar*/
+
+.top-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+   
+}
+
+.top-navbar a{
+    text-decoration: none;
+    font-size: .9rem;
+    padding: 20px 6px 20px 6px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.top-navbar a:hover{
+    border-bottom: 4px solid #d46a3b;
+    
+}
+
+.top-navbar a:hover::after{
+    padding-bottom: 1%;
+
+}
+
+/* Main Content */
+.main-content img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/*BESTSELLERS*/
+
+.common-heading{
+    font-size: 29px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.view-all{
+    font-weight: 500;
+    font-size: .9rem;
+    float: right;
+    padding-right: 30px;
+    margin-top: 60px;
+   color: black;
+       
+}
+
+
+.slid-images{
+    display: flex;
+    height: 620px;
+    justify-content: center;
+   
+}
+.bestseller-images{
+    padding: 20px;
+}
+
+
+
+/*OUR COLLECTION*/
+.our-collection{
+   max-width: 100%;
+   box-sizing: border-box;
+}
+.collection-img{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+
+
+.collection-imagelink{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.collection-imagelink img{
+    height: 450px;
+    border-radius: 7px;
+    width: 100%;
+    
+   
+}
+
+.collection-link{
+    position: absolute;
+    bottom: 40px;
+    background-color: #e9a57cc7 ;
+    padding: 7px 9px 7px 9px;
+   
+
+}
+.collection-link a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/*SHOP BY CATEGORY*/
+.category-collection{
+    display: flex;
+    justify-content: center;
+}
+.category-imagelink{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.category-imagelink img{
+    height: 400px;
+    border-radius: 7px;
+    
+   
+}
+
+/*NEW Arrival*/
+
+.arrival-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.arrival-box{
+    padding: 20px;
+}
+
+.pricing{
+    padding: 15px;
+    
+}
+.pricing p{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.pricing del{
+    float: left;
+    margin-right: 20px;
+    color: #7e818c;
+    
+}
+
+.newarr-image img{
+    height: 420px;
+}
+
+.newarr-image a{
+    text-decoration: none;
+    color: black;
+}
+
+.newarr-image p {
+    width: 250px;
+    text-align: center;
+}
+
+.add-cart{
+    background-color: #d46a3b;
+        text-align: center;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+.add-cart a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*AHIKA'S PROMISE*/
+
+.icon-images{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    height: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Main Content */
+
+/* Footer */
+
+.footer-backgroundimg{
+    background-image: url("../images/Footer-image.webp");
+    height: 550px;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: bottom !important;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+
+}
+
+.footer-backgroundimg h3{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.footer-backgroundimg li{
+     margin-top: 10px;
+    font-size: .9rem;
+    display: block;
+    
+}
+
+.footer-backgroundimg a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer-backgroundimg a:hover{
+    color: #d46a3b;
+
+}
+
+.footer-logo{
+    width: 25%;
+
+}
+
+.logo-text{
+    font-size: .9rem;
+    word-spacing: 5px;
+    line-height: 25px;
+
+}
+
+.footer-logo p {
+    padding-top: 15px;
+
+}
+
+.chevron-link{
+    font-size: .6rem;
+    padding-right: 8px;
+
+}
+
+.fa-brands:hover{
+    color: #d46a3b;
+
+}
+
+.newsletter input{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+    padding: 10px 0px 15px 0px;
+    background-color: rgb(250, 248, 247);
+
+}
+
+.newsletter p {
+    font-size: .9rem;
+
+}
+
+.newsletter i {
+    padding: 5px;
+    margin-top: 15px;
+
+}
+
+.newsletter h3{
+    margin-top: 10px;
+}
+
+.playstore{
+    width: 100px;
+    height: 40px;
+
+}
+
+.safe-secure{
+    width: 200px;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.made-india{
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    padding:1px 6px 2px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    transform: translateY(-50%);
+}
+.slick-prev {
+    left: 50px;
+}
+
+.slick-next {
+    right: 50px;
+    left: auto;
+}
